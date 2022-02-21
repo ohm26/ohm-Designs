@@ -1,0 +1,274 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 1170px;
+  height: auto;
+  margin: auto;
+}
+header {
+  width: 1170px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+img {
+  flex-basis: 60px;
+  height: 60px;
+  margin-left: 30px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+ header button {
+  position: relative;
+  top:20px;
+  right: 90px;
+  width: 70px;
+  height: 20px;
+  background-color: rgb(245, 133, 96);
+  border-radius:2px;
+  border: none;
+  color: #fff;
+}
+
+li:hover{
+  background-color:rgb(33, 143, 194) ;
+  background-image: url(../images/images.png);
+  color:#fff;
+  padding: 20px;
+
+}
+input {
+  margin-top: 20px;
+}
+.slider {
+  width: 1170;
+  height: 500px;
+  background-image: url(../images/12.jpg);
+  text-align: center;
+  margin: 20px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.slider h1 {
+  padding-top: 100px;
+  color: white;
+}
+.slider p {
+  color: white;
+  text-align: center;
+}
+.slider button {
+  margin-top: 80px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(245, 133, 96);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+.button {
+  margin: 0% 44%;
+  margin-top: -40px;
+}
+.button button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: rgb(33, 145, 190);
+  border: none;
+  border-radius: 5px;
+  padding: 0px;
+}
+.content {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.content div {
+  width: 40px;
+}
+
+.content img {
+  border-radius: 50%;
+  background-color: rgb(33, 145, 190);
+  margin: 0% 40%;
+}
+.content h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.content p {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+.content p a {
+  text-decoration: none;
+}
+.part_three {
+  background-color: rgb(46, 62, 78);
+  margin-top: 50px;
+  padding: 0px 100px;
+}
+
+.title_one {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding-right: 20px;
+}
+.title_one h1 {
+  color: rgb(202, 136, 113);
+  margin: 20px 0px;
+}
+
+.title_one button {
+  background-color: rgb(42, 144, 194);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0px;
+  width: 130px;
+}
+.desings {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.desings img {
+  width: 300px;
+  height: 200px;
+  margin-left: 0px;
+}
+.desings  h5 {
+  color: rgb(202, 136, 113);
+}
+.desings  p {
+  color: white;
+}
+.desings button{
+    position:relative;
+    top: -170px;
+    left: 70px;
+    width: 150px;
+    height: 30px;
+    background-color:transparent;
+    color: white;
+    border:3px solid white;
+    border-radius: 5px;
+    
+}
+.part_four{
+    width: 1170px;
+    margin: auto;
+    padding:20px;
+}
+.part_four h1 {
+    color:rgb(137, 199, 224) ;
+    text-align: center; 
+    padding:30px;
+}
+.part_four p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text{
+    display: flex;
+    flex-wrap: nowrap;
+    border-color: gray;
+    border-bottom: 10px;
+}
+.text button{
+    position: relative;
+    left: 150px;
+    width: 70px;
+    height:30px;
+    background-color: rgb(137, 199, 224) ;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.text h3{
+    color:rgb(137, 199, 224) ;
+    text-align: left;
+
+}
+.text a{
+    color: rgb(33, 132, 174);
+}
+.text p{
+text-align: justify;
+width: 200px;
+}
+.container{
+    margin-top: 100px;
+}
+.container h1{
+text-align: center;
+color: rgb(33, 132, 174)
+}
+.container h5{
+    text-align: center;
+    margin: 40px 0px;
+    padding-left: 50px;
+    color: rgb(221, 124, 92);
+    }
+.container p{
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    }
+.man_woman{
+    display: flex;
+    justify-content:center;
+
+}
+.man_woman img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.man_woman img:hover{
+    background-color: rgb(221, 124, 92);
+}
+.container1{
+    background-color: rgb(46, 62, 78);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding:50px ;
+    color: white;
+    
+}
+.container1 h2{
+    color:rgb(221, 124, 92) ;
+    margin-bottom: 20px;
+    
+}
+.container1 div{
+width: 200px;
+
+
+}
+.container1 p{
+    margin-top: 20px;
+    }
+  .container1 a{
+       text-decoration: none;
+       color:rgb(33, 143, 194) ;
+        }
+ .contact p{
+     color: white;
+     margin-right: 50px;
+ } 
+   
